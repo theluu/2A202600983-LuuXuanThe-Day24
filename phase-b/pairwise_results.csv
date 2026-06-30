@@ -1,0 +1,31 @@
+question,winner_after_swap,run1_winner,run2_winner,position_consistent,score_a,score_b
+"Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",tie,tie,tie,True,0.693,0.738
+"Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",B,B,B,True,0.59,0.657
+"Phụ cấp ăn trưa hàng tháng là bao nhiêu?",tie,tie,tie,True,0.537,0.556
+"Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",A,A,A,True,0.69,0.415
+"Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",A,A,A,True,0.587,0.479
+"Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",tie,tie,tie,True,0.615,0.632
+"Nghỉ phép không lương 20 ngày cần ai phê duyệt?",B,B,B,True,0.647,0.717
+"Nhân viên được nghỉ bao nhiêu ngày khi cha hoặc mẹ mất?",B,B,B,True,0.625,0.722
+"Nam nhân viên được nghỉ bao nhiêu ngày khi vợ sinh con?",B,B,B,True,0.7,0.757
+"Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày một tuần?",B,B,B,True,0.685,0.77
+"VPN có bắt buộc không khi làm việc từ xa (WFH)?",B,B,B,True,0.738,0.8
+"Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",tie,tie,tie,True,0.637,0.639
+"Đánh giá hiệu suất diễn ra mấy lần một năm và vào tháng nào?",B,B,B,True,0.464,0.602
+"Nhân viên nghỉ ốm cần nộp giấy tờ gì và trong bao nhiêu ngày làm việc?",tie,tie,tie,True,0.625,0.638
+"Tạm ứng dưới 5 triệu cần ai phê duyệt? Từ 5 triệu trở lên thì sao?",B,B,B,True,0.609,0.701
+"Tài khoản VPN bị khóa tự động sau bao nhiêu ngày không hoạt động?",tie,tie,tie,True,0.815,0.792
+"Phụ cấp điện thoại dành cho những cấp bậc nào và mức bao nhiêu?",tie,tie,tie,True,0.53,0.555
+"Cơ cấu điểm đánh giá hiệu suất gồm những thành phần nào và tỷ lệ ra sao?",A,A,A,True,0.499,0.281
+"Thời gian thử việc tiêu chuẩn và tối đa (dành cho Manager trở lên) là bao nhiêu ngày?",tie,tie,tie,True,0.587,0.549
+"Phụ cấp đi lại tối đa mỗi tháng là bao nhiêu và điều kiện để được hưởng là gì?",A,A,A,True,0.537,0.486
+"Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",A,A,A,True,0.603,0.524
+"Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",B,B,B,True,0.535,0.656
+"Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",B,B,B,True,0.603,0.721
+"Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",A,A,A,True,0.653,0.384
+"Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",A,A,A,True,0.599,0.498
+"Nhân viên vừa kết hôn và cùng tuần đó có con kết hôn. Tổng số ngày nghỉ đặc biệt có lương là bao nhiêu?",A,A,A,True,0.609,0.534
+"Nhân viên có thâm niên 7 năm theo v2024 được nghỉ bao nhiêu ngày phép? Nếu bị trừ thêm 4 ngày ốm không có giấy y tế thì còn lại bao nhiêu?",B,B,B,True,0.593,0.763
+"Nhân viên cấp Lead nhận tổng phụ cấp hàng tháng (ăn trưa + điện thoại) là bao nhiêu?",A,A,A,True,0.569,0.507
+"Nhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày (quá hạn 15 ngày). Ai phê duyệt khoản này và phí phạt là bao nhiêu?",B,B,B,True,0.599,0.651
+"So sánh quyền lợi bảo hiểm giữa nhân viên thử việc và nhân viên chính thức.",tie,tie,tie,True,0.641,0.664

@@ -1,0 +1,32 @@
+name: RAG Eval Gate
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Generate answers
+        run: python setup_answers.py
+      - name: Run Phase A evaluation
+        run: python src/phase_a_ragas.py
+      - name: Run Phase B judge
+        run: python src/phase_b_judge.py
+      - name: Run Phase C guardrails
+        run: python src/phase_c_guard.py
+      - name: Run tests
+        run: pytest tests/ -q
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lab24-reports
+          path: reports/

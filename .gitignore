@@ -5,6 +5,8 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
-answers_50q.json
-reports/*.json
-!reports/.gitkeep
+!answers_50q.json
+!reports/*.json
+!reports/*.md
+!demo/demo-video.mp4
+!demo/frames/*.png

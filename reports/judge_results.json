@@ -1,0 +1,35 @@
+{
+  "judge_mode": "heuristic",
+  "batch_size": 30,
+  "demo_pairwise": {
+    "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+    "winner_pass1": "A",
+    "winner_pass2": "A",
+    "final_winner": "A",
+    "position_consistent": true,
+    "scores_pass1": {
+      "A": 0.719,
+      "B": 0.499
+    },
+    "scores_pass2": {
+      "A": 0.719,
+      "B": 0.499
+    }
+  },
+  "cohen_kappa": 0.0,
+  "kappa_interpretation": "needs_improvement",
+  "bias_report": {
+    "total_judged": 30,
+    "position_bias_rate": 0.0,
+    "position_bias_count": 0,
+    "verbosity_bias": 0.429,
+    "verbosity_details": {
+      "a_wins_a_longer": 9,
+      "b_wins_b_longer": 0,
+      "total_decisive": 21
+    },
+    "interpretation": "Position bias thấp — judge ổn định với swap-and-average."
+  },
+  "pairwise_results_csv": "phase-b/pairwise_results.csv",
+  "absolute_scores_csv": "phase-b/absolute_scores.csv"
+}

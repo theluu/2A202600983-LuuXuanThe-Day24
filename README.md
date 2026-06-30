@@ -199,6 +199,15 @@ Checklist:
 - [ ] `reports/blueprint.md` đã điền đầy đủ
 - [ ] `pytest tests/` pass toàn bộ
 
+Current verified run:
+
+- `python3 check_lab.py`: 22/22 checks passed.
+- `pytest tests/ -q`: 40 tests passed.
+- Demo video: `demo/demo-video.mp4` (300 seconds).
+- Phase B artifacts: `phase-b/pairwise_results.csv`, `phase-b/absolute_scores.csv`.
+- Phase C output guard results are included in `reports/guard_results.json`.
+- Real OpenAI/Anthropic and Groq/HuggingFace adapters are implemented. This verified run uses local fallback mode because sending internal HR/policy content to external APIs was not permitted during verification.
+
 ---
 
 ## Deliverables (push lên GitHub trước khi hết giờ)
@@ -209,6 +218,7 @@ Checklist:
 4. **`reports/blueprint.md`** — Task 13 (CI/CD blueprint, điền tay)
 5. **`analysis/failure_clusters.md`** — Phân tích Phase A
 6. **`analysis/bias_report.md`** — Phân tích Phase B
+7. **`demo/demo-video.mp4`** — Demo video 5 phút
 
 ---
 

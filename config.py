@@ -7,6 +7,8 @@ load_dotenv()
 
 # --- API Keys ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 HF_TOKEN = os.getenv("HF_TOKEN", "")  # Optional: for HuggingFace models
 
 # --- Qdrant (same as Day 18) ---
@@ -39,6 +41,9 @@ GUARDRAILS_CONFIG_DIR = os.path.join(os.path.dirname(__file__), "guardrails")
 
 # --- LLM Judge ---
 JUDGE_MODEL = "gpt-4o-mini"
+ANTHROPIC_JUDGE_MODEL = "claude-3-5-haiku-latest"
+LLAMA_GUARD_MODEL = "meta-llama/Llama-Guard-3-8B"
+GROQ_LLAMA_GUARD_MODEL = "llama-guard-3-8b"
 
 # --- Guardrail latency budget ---
 LATENCY_BUDGET_P95_MS = 500  # target: full guard stack P95 < 500ms
