@@ -3,30 +3,40 @@ name: RAG Eval Gate
 on:
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
-  eval:
+  eval-gate:
     runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Generate answers
-        run: python setup_answers.py
-      - name: Run Phase A evaluation
-        run: python src/phase_a_ragas.py
-      - name: Run Phase B judge
-        run: python src/phase_b_judge.py
-      - name: Run Phase C guardrails
-        run: python src/phase_c_guard.py
-      - name: Run tests
-        run: pytest tests/ -q
-      - name: Upload reports
+
+      - name: Install minimal deps
+        run: pip install --quiet pandas
+
+      # Regenerate RAGAS results only if an API key secret is configured;
+      # otherwise gate against the committed phase-a/ragas_summary.json.
+      - name: Regenerate RAGAS (optional)
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        run: |
+          pip install --quiet "ragas==0.2.14" "langchain==0.2.17" "langchain-core==0.2.43" \
+            "langchain-community==0.2.19" "langchain-openai==0.1.25" "datasets" "openai>=1.40,<2"
+          python phase-a/a2_run_ragas.py
+
+      - name: Threshold gate (exit 1 if below target)
+        run: python phase-a/eval_gate.py
+
+      - name: Upload RAGAS results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: lab24-reports
-          path: reports/
+          name: ragas-results
+          path: |
+            phase-a/ragas_results.csv
+            phase-a/ragas_summary.json

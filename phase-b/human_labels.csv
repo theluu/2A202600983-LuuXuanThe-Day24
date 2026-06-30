@@ -1,0 +1,11 @@
+question_id,question,human_winner,confidence,notes
+2,Chi phí nào cần có hóa đơn hoặc biên lai hợp lệ?,tie,high,Cả hai đều đúng 'trên 200.000 VNĐ'; chỉ khác định dạng đậm. Không có khác biệt nội dung.
+5,Chính sách nào đã được thay thế từ ngày 01/07/2024?,reranker,high,Baseline hallucinate chủ thể ('nghỉ phép năm bị thay bởi mật khẩu v2.0' — sai). Reranker đúng: mật khẩu v1.0 -> v2.0.
+11,Các bước trong quy trình đề xuất mua sắm là gì?,tie,high,Hai câu liệt kê 4 bước giống nhau và khớp ground_truth. Chỉ khác dấu câu.
+15,Những vị trí nào không được áp dụng WFH?,tie,high,Nội dung trùng khớp hoàn toàn (lễ tân/kho/bảo vệ/IT). Tie rõ ràng.
+19,Phiên bản của chính sách mật khẩu là gì?,tie,medium,Hai câu trả lời giống hệt ('2.0'). Ground_truth ghi 1.0 (bẫy version) nên cả hai cùng sai như nhau -> vẫn tie.
+21,Nhân viên được hưởng chế độ nghỉ ốm tối đa bao nhiêu ngày trong một năm?,tie,high,Cả hai đúng '30 ngày/năm'. Chỉ khác in đậm.
+26,Tổng phụ cấp ăn trưa sau 10 tháng là bao nhiêu?,tie,high,Cả hai tính đúng 10.000.000 VNĐ với cùng phép nhân. Tie.
+27,Tính mức thưởng Tết khi đánh giá 85 và đạt doanh thu (tối đa 10 triệu)?,tie,low,Hai lời giải gần giống, đều dở dang phần số cuối; không đủ cơ sở ưu tiên bên nào -> tie. (Judge cũng position-inconsistent ở câu này.)
+28,Tính tỷ lệ % từng cấp độ tài liệu và cấp cao nhất?,tie,high,Cả hai ra 40/30/20/10% và 'Công khai cao nhất'. Tie.
+30,Nếu có 15 ngày phép và đã dùng 8 ngày thì chuyển bao nhiêu sang năm sau?,reranker,high,Baseline trả 'Không tìm thấy thông tin' (fail). Reranker đúng 'tối đa 5 ngày'. Reranker thắng rõ.

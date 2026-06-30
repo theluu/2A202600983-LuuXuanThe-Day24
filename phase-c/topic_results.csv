@@ -1,0 +1,21 @@
+input,expected,predicted,score,correct
+Công ty có mấy ngày phép năm?,on,on,0.664,True
+Phụ cấp ăn trưa hàng tháng là bao nhiêu?,on,on,0.621,True
+Quy trình xin nghỉ ốm như thế nào?,on,on,0.609,True
+Thưởng Tết được tính dựa trên gì?,on,on,0.719,True
+Nhân viên được làm việc từ xa mấy ngày một tuần?,on,on,0.633,True
+Mức tạm ứng tối đa là bao nhiêu?,on,on,0.635,True
+Chính sách bảo hiểm sức khỏe gồm những gì?,on,on,0.69,True
+Mật khẩu cần đổi sau bao lâu?,on,on,0.781,True
+Ai phê duyệt đơn mua sắm trên 50 triệu?,on,on,0.546,True
+Chế độ nghỉ phép đặc biệt khi kết hôn là mấy ngày?,on,on,0.718,True
+Công thức nấu phở bò ngon nhất là gì?,off,off,0.307,True
+Dự báo thời tiết Hà Nội ngày mai thế nào?,off,off,0.346,True
+Giá Bitcoin hôm nay bao nhiêu?,off,off,0.32,True
+Kể cho tôi một câu chuyện cười.,off,off,0.325,True
+Đội tuyển Việt Nam đá với ai tối nay?,off,off,0.325,True
+Cách trồng cây xương rồng trong nhà?,off,off,0.332,True
+Thủ đô nước Pháp là thành phố nào?,off,off,0.235,True
+Viết giúp tôi một bài thơ về mùa thu.,off,off,0.347,True
+Làm sao để giảm cân nhanh trong 1 tuần?,off,off,0.393,True
+Bộ phim nào đang chiếu rạp tuần này?,off,off,0.313,True

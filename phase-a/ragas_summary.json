@@ -1,0 +1,51 @@
+{
+  "total_questions": 50,
+  "models": {
+    "generation": "gpt-4o-mini",
+    "embeddings": "text-embedding-3-small",
+    "ragas_judge": "gpt-4o-mini"
+  },
+  "overall": {
+    "faithfulness": 0.7338,
+    "answer_relevancy": 0.464,
+    "context_precision": 0.795,
+    "context_recall": 0.854,
+    "avg_score": 0.7117
+  },
+  "per_evolution": {
+    "simple": {
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.5643,
+      "context_precision": 0.9233,
+      "context_recall": 0.92,
+      "count": 25,
+      "avg_score": 0.8419
+    },
+    "reasoning": {
+      "faithfulness": 0.3325,
+      "answer_relevancy": 0.4324,
+      "context_precision": 0.9103,
+      "context_recall": 0.9231,
+      "count": 13,
+      "avg_score": 0.6495
+    },
+    "multi_context": {
+      "faithfulness": 0.6972,
+      "answer_relevancy": 0.2894,
+      "context_precision": 0.4028,
+      "context_recall": 0.6417,
+      "count": 12,
+      "avg_score": 0.5078
+    }
+  },
+  "observations_below_0_5": [
+    "answer_relevancy = 0.464 < 0.5 → cần cải thiện"
+  ],
+  "cost": {
+    "chat_in_tokens": 15383,
+    "chat_out_tokens": 2634,
+    "embed_tokens": 2377,
+    "api_calls": 100,
+    "est_cost_usd": 0.00394
+  }
+}

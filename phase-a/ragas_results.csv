@@ -1,0 +1,51 @@
+question,evolution_type,faithfulness,answer_relevancy,context_precision,context_recall,avg_score
+Nhân viên cấp Manager được hưởng phụ cấp điện thoại bao nhiêu tiền mỗi tháng?,simple,1.0,0.6213,1.0,1.0,0.9053
+Chi phí nào cần có hóa đơn hoặc biên lai hợp lệ?,simple,1.0,0.4104,1.0,1.0,0.8526
+Lương tháng 13 được chi trả vào tháng nào?,simple,1.0,0.6075,1.0,1.0,0.9019
+Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày mỗi tuần?,simple,1.0,0.5136,1.0,1.0,0.8784
+Chính sách nào đã được thay thế từ ngày 01/07/2024?,simple,1.0,0.5005,0.5833,1.0,0.771
+Mức phụ cấp ngày cho công tác trong nước là bao nhiêu?,simple,1.0,0.4136,1.0,1.0,0.8534
+Xếp loại nào có điểm từ 4.5 đến 5.0?,simple,1.0,0.5193,1.0,1.0,0.8798
+"Theo chính sách mentor/buddy, một người phải đáp ứng tiêu chí gì để được làm mentor?",simple,1.0,0.7316,0.5,1.0,0.8079
+Mức thưởng Tết được tính dựa trên bao nhiêu yếu tố chính?,simple,1.0,0.0,1.0,1.0,0.75
+Thời hạn thanh toán khoản tạm ứng là bao lâu?,simple,1.0,0.4036,1.0,1.0,0.8509
+Các bước trong quy trình đề xuất mua sắm là gì?,simple,1.0,0.4437,1.0,1.0,0.8609
+KPI cá nhân chiếm bao nhiêu phần trăm tổng điểm trong cơ cấu đánh giá?,simple,1.0,0.5644,1.0,1.0,0.8911
+Hạn mức bảo hiểm cho mỗi người trong gói gia đình là bao nhiêu?,simple,1.0,0.5604,1.0,1.0,0.8901
+Thời gian xử lý sự cố nghiêm trọng là bao lâu?,simple,1.0,0.3598,1.0,1.0,0.8399
+Những vị trí nào không được áp dụng WFH?,simple,1.0,1.0,1.0,1.0,1.0
+Phiên bản của chính sách mật khẩu là bao nhiêu?,simple,1.0,0.5631,0.5,0.0,0.5158
+Có bao nhiêu giờ thì phiên VPN tự động ngắt?,simple,1.0,0.8266,1.0,1.0,0.9567
+Nhân viên cần làm gì khi khám ngoài danh sách bệnh viện/phòng khám liên kết?,simple,1.0,0.3261,1.0,1.0,0.8315
+Phiên bản của chính sách mật khẩu là gì?,simple,1.0,0.5629,1.0,1.0,0.8907
+Nhân viên có thể tạm ứng tối đa bao nhiêu tiền cho mỗi lần đề xuất?,simple,1.0,0.4606,1.0,1.0,0.8651
+Nhân viên được hưởng chế độ nghỉ ốm tối đa bao nhiêu ngày trong một năm?,simple,1.0,1.0,1.0,1.0,1.0
+Phụ cấp ngày là bao nhiêu VNĐ?,simple,1.0,0.3158,1.0,1.0,0.8289
+Mentor và Buddy có phải là cùng một người không?,simple,1.0,0.8736,1.0,0.0,0.7184
+Phép năm cần được đăng ký trước bao nhiêu ngày làm việc?,simple,0.0,0.655,1.0,1.0,0.6638
+Mỗi nhân viên chính thức được hưởng bao nhiêu ngày phép năm?,simple,1.0,0.8738,0.5,1.0,0.8435
+"Nếu một nhân viên làm việc liên tục trong 10 tháng và không nghỉ phép, nghỉ ốm hay công tác ngoài, tổng phụ cấp ăn trưa mà nhân viên đó nhận được là bao nhiêu?",reasoning,0.3333,0.4625,1.0,1.0,0.6989
+"Nếu một nhân viên có kết quả đánh giá hiệu suất cá nhân là 85 và công ty đạt chỉ tiêu doanh thu, hãy tính mức thưởng Tết của nhân viên đó nếu mức thưởng tối đa là 10 triệu đồng.",reasoning,0.2308,0.5181,1.0,0.6667,0.6039
+"Nếu một công ty có 100 tài liệu, trong đó 40 tài liệu là công khai, 30 tài liệu là nội bộ, 20 tài liệu là bí mật và 10 tài liệu là tối mật. Hãy tính tỷ lệ phần trăm của mỗi cấp độ tài liệu và cho biết cấp độ nào chiếm tỷ lệ cao nhất?",reasoning,0.0,0.4483,0.0,1.0,0.3621
+Tại sao việc có Mentor và Buddy là hai người khác nhau lại quan trọng trong quá trình hỗ trợ nhân viên mới?,reasoning,0.8,0.7338,1.0,1.0,0.8834
+"Nếu một nhân viên có 15 ngày phép năm và đã sử dụng 8 ngày trong năm hiện tại, anh ta có thể chuyển bao nhiêu ngày phép sang năm sau?",reasoning,0.0,0.0,1.0,0.3333,0.3333
+"Nếu một nhân viên không báo cáo sự cố và tự ý xử lý, họ sẽ phải đối mặt với những hình phạt nào? Hãy so sánh giữa mức cảnh cáo và sa thải để đưa ra kết luận về mức độ nghiêm trọng của hành vi này.",reasoning,0.5,0.4857,1.0,1.0,0.7464
+"Nếu một nhân viên phát hiện sự cố bảo mật vào lúc 14:30, thì thời gian tối đa để họ báo cáo sự cố là khi nào?",reasoning,0.0,0.4903,1.0,1.0,0.6226
+"Nếu một nhân viên công tác 10 ngày trong tháng và có chứng từ hợp lệ cho tất cả các ngày, thì tổng phụ cấp đi lại mà nhân viên đó nhận được là bao nhiêu?",reasoning,0.5,0.375,1.0,1.0,0.7187
+"Nếu một nhân viên có vợ và hai con dưới 18 tuổi, tổng chi phí bảo hiểm mà nhân viên đó phải chi trả trong một năm là bao nhiêu?",reasoning,0.375,0.5276,1.0,1.0,0.7256
+"Nếu một nhân viên vi phạm chính sách phân loại dữ liệu và bị xử lý kỷ luật theo Quy chế kỷ luật công ty, thì nhân viên đó có thể bị sa thải. Nếu nhân viên đó đã từng vi phạm một lần trước đó và bị cảnh cáo, thì khả năng nào sẽ xảy ra nếu họ vi phạm lần nữa?",reasoning,0.3333,0.0,1.0,1.0,0.5833
+"Nếu một nhân viên nghỉ việc vào ngày 20 tháng Chạp và không phải là trường hợp nghỉ hưu hoặc hết hạn hợp đồng, thì nhân viên đó có được thưởng Tết không? Giải thích lý do.",reasoning,0.75,0.4528,1.0,1.0,0.8007
+"Nếu một đơn hàng có giá trị là 15.000.000 VNĐ, và phòng Mua sắm đã nhận được 4 báo giá khác nhau, hãy nêu các bước cần thực hiện để hoàn tất quy trình đề xuất mua sắm và giải thích lý do tại sao cần ít nhất 3 báo giá.",reasoning,0.5,0.5358,1.0,1.0,0.7589
+"Nếu một nhân viên có lương cơ bản là 10 triệu đồng và làm việc được 9 tháng trong năm, thì nhân viên đó sẽ nhận được bao nhiêu tiền lương tháng 13?",reasoning,0.0,0.591,0.8333,1.0,0.6061
+Quy trình nào cần thực hiện để nhân viên có thâm niên từ 1 năm trở lên được tài trợ chi phí đào tạo bên ngoài tối đa 30.000.000 VNĐ/khóa?,multi_context,0.2,0.4814,0.8333,0.0,0.3787
+Nhân viên có thâm niên từ 3 năm trở lên và đang trong thời gian thử việc sẽ nhận được bao nhiêu ngày phép và mức lương thử việc là bao nhiêu phần trăm?,multi_context,1.0,0.348,0.0,1.0,0.587
+Khung lương cho các cấp bậc nhân viên là gì và chu kỳ đánh giá hiệu suất diễn ra như thế nào?,multi_context,1.0,0.374,0.5,1.0,0.7185
+Những quy định nào liên quan đến việc yêu cầu chứng từ cho chi phí và cách đăng ký phép năm?,multi_context,1.0,0.2526,1.0,1.0,0.8131
+Những hậu quả nào có thể xảy ra nếu nhân viên vi phạm chính sách phân loại dữ liệu và thời gian nộp hồ sơ hoàn ứng chi phí là bao lâu?,multi_context,1.0,0.5305,1.0,1.0,0.8826
+Chính sách mật khẩu phiên bản cũ có những thông tin gì và quy định sử dụng phép năm là như thế nào?,multi_context,0.6667,0.0,0.0,0.2,0.2167
+Nhân viên có thể đăng ký gói bảo hiểm cho người thân như thế nào và có những quy định gì liên quan đến việc sử dụng VPN trong công ty?,multi_context,1.0,0.6041,0.5,1.0,0.776
+Cấp bậc nào có mức lương cao nhất và quy định nào cần tuân thủ khi nghỉ phép từ 3 ngày trở lên?,multi_context,0.0,0.0,0.0,0.0,0.0
+Nhân viên có thâm niên từ bao lâu thì được tài trợ chi phí đào tạo bên ngoài và họ sẽ nhận được bao nhiêu ngày phép nếu có thâm niên 10 năm?,multi_context,1.0,0.3576,0.5,1.0,0.7144
+"Nhân viên có thể mua sắm thiết bị CNTT nào và có điều kiện gì để được duyệt đơn hàng, cũng như thông tin về lương tháng 13 mà họ sẽ nhận được?",multi_context,1.0,0.5246,0.5,1.0,0.7562
+Nhân viên làm việc từ xa cần tuân thủ những yêu cầu kỹ thuật nào và nếu họ nghỉ ốm thì cần làm gì để đảm bảo quyền lợi của mình?,multi_context,0.0,0.0,0.0,0.0,0.0
+Mật khẩu cần thay đổi sau bao lâu và thông tin nào được phân loại là bí mật trong tài liệu HR?,multi_context,0.5,0.0,0.0,0.5,0.25

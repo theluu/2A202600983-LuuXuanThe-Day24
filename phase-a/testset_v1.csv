@@ -1,0 +1,169 @@
+question,ground_truth,contexts,evolution_type
+Nhân viên cấp Manager được hưởng phụ cấp điện thoại bao nhiêu tiền mỗi tháng?,500.000 VNĐ/tháng,"## Phụ cấp điện thoại
+Nhân viên cấp Manager trở lên được hưởng phụ cấp điện thoại **500.000 VNĐ/tháng**. Nhân viên cấp Lead được hưởng 300.000 VNĐ/tháng. Các cấp bậc khác không có phụ cấp điện thoại.",simple
+Chi phí nào cần có hóa đơn hoặc biên lai hợp lệ?,Chi phí trên 200.000 VNĐ,"## Chứng từ yêu cầu
+Mọi chi phí **trên 200.000 VNĐ** phải có **hóa đơn hoặc biên lai** hợp lệ. Chi phí dưới 200.000 VNĐ có thể khai báo không cần hóa đơn nhưng phải ghi rõ mục đích và ngày phát sinh.",simple
+Lương tháng 13 được chi trả vào tháng nào?,tháng 1,"## Lương tháng 13
+Nhân viên chính thức được hưởng **lương tháng 13**, chi trả vào tháng 1 hàng năm (trước Tết Nguyên đán). Mức lương tháng 13 bằng 1 tháng lương cơ bản, tính pro-rata cho nhân viên chưa đủ 12 tháng.",simple
+Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày mỗi tuần?,2 ngày/tuần,"## Quy định chung
+Nhân viên chính thức được phép làm việc từ xa tối đa **2 ngày/tuần**. Lịch WFH phải được đăng ký và phê duyệt bởi quản lý trực tiếp vào **thứ Hai** đầu tuần.",simple
+Chính sách nào đã được thay thế từ ngày 01/07/2024?,Chính sách mật khẩu v2.0,"## Lưu ý
+Chính sách này đã được thay thế bởi Chính sách mật khẩu v2.0 từ ngày 01/07/2024. Vui lòng tham khảo phiên bản mới để biết quy định hiện hành.",simple
+Mức phụ cấp ngày cho công tác trong nước là bao nhiêu?,800.000 VNĐ/ngày,"## Công tác trong nước
+- **Phụ cấp ngày**: **800.000 VNĐ/ngày** (bao gồm ăn uống và di chuyển nội thành)
+- **Khách sạn**: tối đa **1.200.000 VNĐ/đêm**, thanh toán theo hóa đơn thực tế
+- **Vé máy bay**: hạng phổ thông, đặt trước ít nhất 5 ngày. Cấp Manager trở lên được bay hạng thương gia cho chặng trên 2 giờ",simple
+Xếp loại nào có điểm từ 4.5 đến 5.0?,Xuất sắc,"## Thang điểm
+| Xếp loại | Điểm | Mô tả |
+|-----------|-------|--------|
+| Xuất sắc | 4.5-5.0 | Vượt xa kỳ vọng |
+| Tốt | 3.5-4.4 | Đáp ứng và vượt kỳ vọng |
+| Đạt | 2.5-3.4 | Đáp ứng kỳ vọng cơ bản |
+| Cần cải thiện | <2.5 | Chưa đáp ứng kỳ vọng |",simple
+"Theo chính sách mentor/buddy, một người phải đáp ứng tiêu chí gì để được làm mentor?","Mentor phải là nhân viên cấp Senior trở lên, khác phòng ban hoặc cùng phòng ban nhưng không phải quản lý trực tiếp.","## Phân biệt Mentor và Buddy
+- **Mentor**: hỗ trợ **chuyên môn kỹ thuật**, hướng dẫn phát triển nghề nghiệp, chia sẻ kiến thức chuyên sâu. Mentor phải là nhân viên cấp Senior trở lên, khác phòng ban hoặc cùng phòng ban nhưng không phải quản lý trực tiếp.
+- **Buddy**: hỗ trợ **văn hóa và hòa nhập**, giúp nhân viên mới làm quen môi trường, giới thiệu đồng nghiệp, hướng dẫn quy trình hàng ngày. Buddy là nhân viên cùng phòng ban, thâm niên từ 6 tháng.",simple
+Mức thưởng Tết được tính dựa trên bao nhiêu yếu tố chính?,Hai yếu tố chính,"## Tiêu chí tính thưởng
+Mức thưởng Tết được tính dựa trên hai yếu tố chính:
+- **Kết quả đánh giá hiệu suất cá nhân** (trọng số 60%): dựa trên kết quả đánh giá cuối năm
+- **Kết quả kinh doanh của công ty** (trọng số 40%): nếu công ty đạt/vượt chỉ tiêu doanh thu",simple
+Thời hạn thanh toán khoản tạm ứng là bao lâu?,15 ngày,"## Thời hạn thanh toán
+Khoản tạm ứng phải được thanh toán (nộp chứng từ hoàn ứng) trong vòng **15 ngày** kể từ ngày nhận tiền. Trường hợp công tác dài ngày, thời hạn tính từ ngày kết thúc chuyến công tác.",simple
+Các bước trong quy trình đề xuất mua sắm là gì?,"1. Tạo phiếu đề xuất mua sắm trên hệ thống Procurement Portal, 2. Đính kèm ít nhất 3 báo giá cho đơn hàng trên 10.000.000 VNĐ, 3. Chờ phê duyệt theo thẩm quyền tương ứng, 4. Phòng Mua sắm đặt hàng và theo dõi giao nhận.","## Quy trình đề xuất
+1. Tạo phiếu đề xuất mua sắm trên hệ thống Procurement Portal
+2. Đính kèm ít nhất 3 báo giá cho đơn hàng trên 10.000.000 VNĐ
+3. Chờ phê duyệt theo thẩm quyền tương ứng
+4. Phòng Mua sắm đặt hàng và theo dõi giao nhận",simple
+KPI cá nhân chiếm bao nhiêu phần trăm tổng điểm trong cơ cấu đánh giá?,70%,"## Cơ cấu đánh giá
+- **KPI cá nhân**: chiếm **70%** tổng điểm, do quản lý trực tiếp đánh giá dựa trên mục tiêu đã thống nhất đầu kỳ
+- **Peer review**: chiếm **30%** tổng điểm, do 3-5 đồng nghiệp đánh giá về tinh thần hợp tác, giao tiếp và chuyên môn",simple
+Hạn mức bảo hiểm cho mỗi người trong gói gia đình là bao nhiêu?,50.000.000 VNĐ/năm/người,"## Gói gia đình
+Nhân viên có thể đăng ký thêm gói bảo hiểm cho người thân (vợ/chồng, con dưới 18 tuổi) với hạn mức **50.000.000 VNĐ/năm/người**. Chi phí gói gia đình: công ty hỗ trợ 50%, nhân viên đóng 50% qua khấu trừ lương hàng tháng.",simple
+Thời gian xử lý sự cố nghiêm trọng là bao lâu?,2 giờ,"## Phân loại sự cố
+- **Nghiêm trọng**: rò rỉ dữ liệu Bí mật/Tối mật, tấn công ransomware → xử lý trong 2 giờ
+- **Cao**: phishing thành công, tài khoản bị chiếm → xử lý trong 4 giờ
+- **Trung bình**: phát hiện malware trên 1 máy, truy cập trái phép → xử lý trong 8 giờ
+- **Thấp**: email spam, cảnh báo antivirus tự động → xử lý trong 24 giờ",simple
+Những vị trí nào không được áp dụng WFH?,"lễ tân, nhân viên kho, bảo vệ, nhân viên vận hành hạ tầng IT.","## Hạn chế
+Một số vị trí không được áp dụng WFH: lễ tân, nhân viên kho, bảo vệ, nhân viên vận hành hạ tầng IT. Trong các tuần có sự kiện toàn công ty (All-hands, Team building), WFH không được áp dụng.",simple
+Phiên bản của chính sách mật khẩu là bao nhiêu?,1.0,"# Chính sách mật khẩu (Phiên bản cũ)
+> Phiên bản: 1.0 | Ngày hiệu lực: 01/01/2022 | Phòng ban: CNTT | Trạng thái: ĐÃ THAY THẾ bởi v2.0",simple
+Có bao nhiêu giờ thì phiên VPN tự động ngắt?,12 giờ,"## Quy định sử dụng
+- Không chia sẻ thông tin đăng nhập VPN
+- Ngắt kết nối VPN khi không sử dụng
+- Không sử dụng VPN cá nhân (NordVPN, ExpressVPN) trong mạng công ty
+- Phiên VPN tự động ngắt sau 12 giờ, cần đăng nhập lại",simple
+Nhân viên cần làm gì khi khám ngoài danh sách bệnh viện/phòng khám liên kết?,Thanh toán trước và nộp hồ sơ bồi hoàn trong vòng 30 ngày.,"## Quy trình sử dụng
+Nhân viên xuất trình thẻ bảo hiểm PVI tại các bệnh viện/phòng khám trong danh sách liên kết. Trường hợp khám ngoài danh sách, nhân viên thanh toán trước và nộp hồ sơ bồi hoàn trong vòng 30 ngày. Thời gian xử lý bồi hoàn: 10-15 ngày làm việc.",simple
+Phiên bản của chính sách mật khẩu là gì?,1.0,"# Chính sách mật khẩu (Phiên bản cũ)
+> Phiên bản: 1.0 | Ngày hiệu lực: 01/01/2022 | Phòng ban: CNTT | Trạng thái: ĐÃ THAY THẾ bởi v2.0",simple
+Nhân viên có thể tạm ứng tối đa bao nhiêu tiền cho mỗi lần đề xuất?,20.000.000 VNĐ,"## Hạn mức tạm ứng
+Nhân viên có thể tạm ứng tối đa **20.000.000 VNĐ** cho mỗi lần đề xuất. Tạm ứng phải ghi rõ mục đích: công tác, mua sắm, tổ chức sự kiện hoặc chi phí dự án.",simple
+Nhân viên được hưởng chế độ nghỉ ốm tối đa bao nhiêu ngày trong một năm?,30 ngày/năm,"## Chế độ bảo hiểm
+Nhân viên được hưởng chế độ nghỉ ốm tối đa **30 ngày/năm** theo bảo hiểm xã hội. Trong thời gian nghỉ ốm có bảo hiểm, nhân viên được hưởng 75% mức lương đóng bảo hiểm. Công ty bổ sung thêm 25% để đảm bảo nhân viên nhận đủ 100% lương cơ bản.",simple
+Phụ cấp ngày là bao nhiêu VNĐ?,800.000 VNĐ/ngày,"## Công tác trong nước
+- **Phụ cấp ngày**: **800.000 VNĐ/ngày** (bao gồm ăn uống và di chuyển nội thành)
+- **Khách sạn**: tối đa **1.200.000 VNĐ/đêm**, thanh toán theo hóa đơn thực tế
+- **Vé máy bay**: hạng phổ thông, đặt trước ít nhất 5 ngày. Cấp Manager trở lên được bay hạng thương gia cho chặng trên 2 giờ",simple
+Mentor và Buddy có phải là cùng một người không?,Không.,"## Quy tắc quan trọng
+Mentor và Buddy phải là **hai người khác nhau** để đảm bảo nhân viên mới có nhiều nguồn hỗ trợ đa dạng. Quản lý trực tiếp không được làm Mentor hoặc Buddy.",simple
+Phép năm cần được đăng ký trước bao nhiêu ngày làm việc?,2 ngày làm việc,"## Quy định sử dụng
+Phép năm phải được đăng ký trước ít nhất 2 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 5 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp. Nhân viên cũng có thể yêu cầu thanh toán bằng tiền cho số ngày phép còn lại.",simple
+Mỗi nhân viên chính thức được hưởng bao nhiêu ngày phép năm?,15 ngày phép năm,"## Số ngày phép năm
+Mỗi nhân viên chính thức được hưởng **15 ngày phép năm** có lương, tăng từ 12 ngày so với chính sách năm 2023. Chính sách này thay thế hoàn toàn phiên bản 1.0 ban hành ngày 01/01/2023.",simple
+"Nếu một nhân viên làm việc liên tục trong 10 tháng và không nghỉ phép, nghỉ ốm hay công tác ngoài, tổng phụ cấp ăn trưa mà nhân viên đó nhận được là bao nhiêu?",Tổng phụ cấp ăn trưa = 1.000.000 VNĐ/tháng * 10 tháng = 10.000.000 VNĐ.,"## Phụ cấp ăn trưa
+Tất cả nhân viên được hưởng phụ cấp ăn trưa **1.000.000 VNĐ/tháng**, chi trả cùng kỳ lương. Phụ cấp này không áp dụng cho những ngày nghỉ phép, nghỉ ốm hoặc công tác ngoài.",reasoning
+"Nếu một nhân viên có kết quả đánh giá hiệu suất cá nhân là 85 và công ty đạt chỉ tiêu doanh thu, hãy tính mức thưởng Tết của nhân viên đó nếu mức thưởng tối đa là 10 triệu đồng.","Mức thưởng = (Kết quả đánh giá hiệu suất cá nhân * trọng số hiệu suất cá nhân + Kết quả kinh doanh * trọng số kinh doanh) * mức thưởng tối đa. Ở đây, Kết quả kinh doanh = 10 triệu đồng (vì công ty đạt chỉ tiêu). Vậy Mức thưởng = (85 * 0.6 + 10 * 0.4) * 10 triệu đồng = (51 + 4) * 10 triệu đồng = 550 triệu đồng.","## Tiêu chí tính thưởng
+Mức thưởng Tết được tính dựa trên hai yếu tố chính:
+- **Kết quả đánh giá hiệu suất cá nhân** (trọng số 60%): dựa trên kết quả đánh giá cuối năm
+- **Kết quả kinh doanh của công ty** (trọng số 40%): nếu công ty đạt/vượt chỉ tiêu doanh thu",reasoning
+"Nếu một công ty có 100 tài liệu, trong đó 40 tài liệu là công khai, 30 tài liệu là nội bộ, 20 tài liệu là bí mật và 10 tài liệu là tối mật. Hãy tính tỷ lệ phần trăm của mỗi cấp độ tài liệu và cho biết cấp độ nào chiếm tỷ lệ cao nhất?","Tỷ lệ phần trăm của từng cấp độ tài liệu là: Công khai: 40%, Nội bộ: 30%, Bí mật: 20%, Tối mật: 10%. Cấp độ chiếm tỷ lệ cao nhất là Công khai với 40%.","## Bốn cấp độ phân loại
+| Cấp độ | Nhãn | Ví dụ |
+|--------|------|-------|
+| 1 | **Công khai** | Thông tin marketing, bài blog, tuyển dụng |
+| 2 | **Nội bộ** | Quy trình nội bộ, biên bản họp, danh bạ nhân viên |
+| 3 | **Bí mật** | Dữ liệu khách hàng, hợp đồng, chiến lược kinh doanh |
+| 4 | **Tối mật** | Mã nguồn core, bí mật thương mại, kế hoạch M&A |",reasoning
+Tại sao việc có Mentor và Buddy là hai người khác nhau lại quan trọng trong quá trình hỗ trợ nhân viên mới?,"Việc có Mentor và Buddy là hai người khác nhau giúp đảm bảo rằng nhân viên mới nhận được sự hỗ trợ đa dạng từ nhiều góc độ khác nhau. Nếu cả hai đều là một người, nhân viên mới có thể chỉ nhận được một quan điểm duy nhất, dẫn đến việc thiếu thông tin và hỗ trợ cần thiết. Hơn nữa, việc không để quản lý trực tiếp làm Mentor hoặc Buddy giúp tránh tình huống xung đột lợi ích và tạo ra môi trường thoải mái hơn cho nhân viên mới khi họ cần hỏi hoặc thảo luận về vấn đề.","## Quy tắc quan trọng
+Mentor và Buddy phải là **hai người khác nhau** để đảm bảo nhân viên mới có nhiều nguồn hỗ trợ đa dạng. Quản lý trực tiếp không được làm Mentor hoặc Buddy.",reasoning
+"Nếu một nhân viên có 15 ngày phép năm và đã sử dụng 8 ngày trong năm hiện tại, anh ta có thể chuyển bao nhiêu ngày phép sang năm sau?","Nhân viên còn lại 7 ngày phép (15 - 8 = 7). Tuy nhiên, theo quy định, anh ta chỉ có thể chuyển tối đa 5 ngày sang năm sau. Do đó, nhân viên có thể chuyển 5 ngày phép sang năm sau.","## Quy định sử dụng
+Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp.",reasoning
+"Nếu một nhân viên không báo cáo sự cố và tự ý xử lý, họ sẽ phải đối mặt với những hình phạt nào? Hãy so sánh giữa mức cảnh cáo và sa thải để đưa ra kết luận về mức độ nghiêm trọng của hành vi này.","Hành vi không báo cáo sự cố và tự ý xử lý được xem là vi phạm nghiêm trọng, dẫn đến hai hình phạt: cảnh cáo hoặc sa thải. Mức cảnh cáo là hình phạt nhẹ hơn, trong khi sa thải là hình phạt nặng hơn, cho thấy rằng hành vi này có thể dẫn đến mất việc làm, thể hiện mức độ nghiêm trọng của vi phạm.","## Trách nhiệm
+Không báo cáo sự cố hoặc tự ý xử lý sẽ bị xem là vi phạm nghiêm trọng quy chế bảo mật và có thể bị kỷ luật theo mức cảnh cáo hoặc sa thải.",reasoning
+"Nếu một nhân viên phát hiện sự cố bảo mật vào lúc 14:30, thì thời gian tối đa để họ báo cáo sự cố là khi nào?","Nhân viên phải báo cáo trong vòng 1 giờ, tức là họ phải báo cáo trước 15:30.","## Báo cáo sự cố
+Khi phát hiện hoặc nghi ngờ sự cố bảo mật, nhân viên **phải báo cáo trong vòng 1 giờ** qua email **helpdesk@cty.vn** hoặc hotline CNTT nội bộ (ext. 9999). Tuyệt đối **không tự ý xử lý malware** hoặc tìm cách khắc phục mà không có sự hướng dẫn của đội CNTT.",reasoning
+"Nếu một nhân viên công tác 10 ngày trong tháng và có chứng từ hợp lệ cho tất cả các ngày, thì tổng phụ cấp đi lại mà nhân viên đó nhận được là bao nhiêu?","Nhân viên công tác 10 ngày, vượt quá 8 ngày, nên được hưởng phụ cấp tối đa 2.000.000 VNĐ/tháng.","## Phụ cấp đi lại
+Nhân viên có tần suất công tác ngoài văn phòng trên 8 ngày/tháng được hưởng phụ cấp đi lại theo thực tế, tối đa **2.000.000 VNĐ/tháng**. Phải có chứng từ hợp lệ (vé xe, hóa đơn xăng, Grab receipt).",reasoning
+"Nếu một nhân viên có vợ và hai con dưới 18 tuổi, tổng chi phí bảo hiểm mà nhân viên đó phải chi trả trong một năm là bao nhiêu?","Hạn mức bảo hiểm cho mỗi người là 50.000.000 VNĐ. Tổng số người là 3 (vợ và 2 con). Tổng hạn mức bảo hiểm là 50.000.000 VNĐ * 3 = 150.000.000 VNĐ. Công ty hỗ trợ 50%, tức là 75.000.000 VNĐ. Nhân viên phải chi trả 50% còn lại, tức là 75.000.000 VNĐ. Nhân viên sẽ đóng 75.000.000 VNĐ qua khấu trừ lương hàng tháng.","## Gói gia đình
+Nhân viên có thể đăng ký thêm gói bảo hiểm cho người thân (vợ/chồng, con dưới 18 tuổi) với hạn mức **50.000.000 VNĐ/năm/người**. Chi phí gói gia đình: công ty hỗ trợ 50%, nhân viên đóng 50% qua khấu trừ lương hàng tháng.",reasoning
+"Nếu một nhân viên vi phạm chính sách phân loại dữ liệu và bị xử lý kỷ luật theo Quy chế kỷ luật công ty, thì nhân viên đó có thể bị sa thải. Nếu nhân viên đó đã từng vi phạm một lần trước đó và bị cảnh cáo, thì khả năng nào sẽ xảy ra nếu họ vi phạm lần nữa?","Nhân viên đó sẽ có khả năng bị sa thải vì đã vi phạm chính sách phân loại dữ liệu lần thứ hai sau khi đã bị cảnh cáo, theo quy định về xử lý kỷ luật của công ty.","## Vi phạm
+Vi phạm chính sách phân loại dữ liệu sẽ bị xử lý kỷ luật theo Quy chế kỷ luật công ty, mức cao nhất là sa thải và chịu trách nhiệm pháp lý.",reasoning
+"Nếu một nhân viên nghỉ việc vào ngày 20 tháng Chạp và không phải là trường hợp nghỉ hưu hoặc hết hạn hợp đồng, thì nhân viên đó có được thưởng Tết không? Giải thích lý do.","Nhân viên nghỉ việc trước ngày chi trả (25 tháng Chạp) sẽ không được hưởng thưởng Tết. Vì nhân viên nghỉ việc vào ngày 20 tháng Chạp và không thuộc trường hợp ngoại lệ, nên nhân viên đó sẽ không được thưởng Tết.","## Thời gian chi trả
+Thưởng Tết được chi trả trước ngày 25 tháng Chạp (âm lịch). Nhân viên nghỉ việc trước ngày chi trả sẽ không được hưởng thưởng Tết, trừ trường hợp nghỉ hưu hoặc hết hạn hợp đồng.",reasoning
+"Nếu một đơn hàng có giá trị là 15.000.000 VNĐ, và phòng Mua sắm đã nhận được 4 báo giá khác nhau, hãy nêu các bước cần thực hiện để hoàn tất quy trình đề xuất mua sắm và giải thích lý do tại sao cần ít nhất 3 báo giá.","Để hoàn tất quy trình đề xuất mua sắm cho đơn hàng 15.000.000 VNĐ, cần thực hiện các bước sau: 1. Tạo phiếu đề xuất mua sắm trên hệ thống Procurement Portal. 2. Đính kèm ít nhất 3 báo giá (đã có 4 báo giá, nên đủ điều kiện). 3. Chờ phê duyệt theo thẩm quyền tương ứng. 4. Phòng Mua sắm đặt hàng và theo dõi giao nhận. Cần ít nhất 3 báo giá để đảm bảo tính cạnh tranh và minh bạch trong việc lựa chọn nhà cung cấp, đồng thời giúp phòng Mua sắm đưa ra quyết định tốt nhất về giá cả và chất lượng.","## Quy trình đề xuất
+1. Tạo phiếu đề xuất mua sắm trên hệ thống Procurement Portal
+2. Đính kèm ít nhất 3 báo giá cho đơn hàng trên 10.000.000 VNĐ
+3. Chờ phê duyệt theo thẩm quyền tương ứng
+4. Phòng Mua sắm đặt hàng và theo dõi giao nhận",reasoning
+"Nếu một nhân viên có lương cơ bản là 10 triệu đồng và làm việc được 9 tháng trong năm, thì nhân viên đó sẽ nhận được bao nhiêu tiền lương tháng 13?","Lương tháng 13 = 1 tháng lương cơ bản = 10 triệu đồng. Nhân viên làm việc 9 tháng, nên lương tháng 13 sẽ được tính pro-rata: (9/12) * 10 triệu = 7,5 triệu đồng.","## Lương tháng 13
+Nhân viên chính thức được hưởng **lương tháng 13**, chi trả vào tháng 1 hàng năm (trước Tết Nguyên đán). Mức lương tháng 13 bằng 1 tháng lương cơ bản, tính pro-rata cho nhân viên chưa đủ 12 tháng.",reasoning
+Quy trình nào cần thực hiện để nhân viên có thâm niên từ 1 năm trở lên được tài trợ chi phí đào tạo bên ngoài tối đa 30.000.000 VNĐ/khóa?,"Nhân viên có thâm niên từ 1 năm trở lên cần nộp đơn đề xuất đào tạo kèm chương trình chi tiết, sau đó trưởng phòng sẽ đánh giá mức độ liên quan đến công việc, phòng Nhân sự sẽ xem xét ngân sách, và cuối cùng ký cam kết hoàn chi trước khi đăng ký khóa học.","## Quy trình
+1. Nộp đơn đề xuất đào tạo kèm chương trình chi tiết
+2. Trưởng phòng đánh giá mức độ liên quan đến công việc
+3. Phòng Nhân sự xem xét ngân sách
+4. Ký cam kết hoàn chi trước khi đăng ký khóa học ||| ## Điều kiện được tài trợ
+Công ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban.",multi_context
+Nhân viên có thâm niên từ 3 năm trở lên và đang trong thời gian thử việc sẽ nhận được bao nhiêu ngày phép và mức lương thử việc là bao nhiêu phần trăm?,"Nhân viên có thâm niên từ 3 năm trở lên được cộng thêm 1 ngày phép cho mỗi 3 năm làm việc liên tục, và trong thời gian thử việc, họ nhận được 85% lương của cấp bậc tương ứng.","## Thâm niên công tác
+Nhân viên có thâm niên từ **3 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 3 năm làm việc liên tục. Ví dụ: nhân viên 9 năm thâm niên được 18 ngày phép (15 + 3). ||| ## Lương thử việc
+Nhân viên trong thời gian thử việc được nhận **85% lương** của cấp bậc tương ứng. Sau khi hoàn thành thử việc, lương được điều chỉnh lên 100% kể từ ngày ký hợp đồng chính thức.",multi_context
+Khung lương cho các cấp bậc nhân viên là gì và chu kỳ đánh giá hiệu suất diễn ra như thế nào?,"Khung lương theo cấp bậc gồm: Junior (P1-P2) từ 12.000.000 - 20.000.000 VNĐ/tháng, Senior (P3-P4) từ 20.000.000 - 35.000.000 VNĐ/tháng, Lead (P5) từ 35.000.000 - 50.000.000 VNĐ/tháng, và Manager (M1-M2) từ 45.000.000 - 70.000.000 VNĐ/tháng. Chu kỳ đánh giá hiệu suất được thực hiện 2 lần/năm vào tháng 6 và tháng 12, với kết quả tháng 6 dùng để điều chỉnh mục tiêu và kết quả tháng 12 dùng để xét tăng lương và thưởng.","## Khung lương theo cấp bậc
+| Cấp bậc | Lương gross (VNĐ/tháng) |
+|----------|--------------------------|
+| Junior (P1-P2) | 12.000.000 - 20.000.000 |
+| Senior (P3-P4) | 20.000.000 - 35.000.000 |
+| Lead (P5) | 35.000.000 - 50.000.000 |
+| Manager (M1-M2) | 45.000.000 - 70.000.000 | ||| ## Chu kỳ đánh giá
+Đánh giá hiệu suất được thực hiện **2 lần/năm** vào tháng 6 và tháng 12. Kết quả đánh giá giữa năm (tháng 6) dùng để điều chỉnh mục tiêu, kết quả cuối năm (tháng 12) dùng để xét tăng lương và thưởng.",multi_context
+Những quy định nào liên quan đến việc yêu cầu chứng từ cho chi phí và cách đăng ký phép năm?,"Mọi chi phí trên 200.000 VNĐ phải có hóa đơn hoặc biên lai hợp lệ, trong khi chi phí dưới 200.000 VNĐ có thể khai báo không cần hóa đơn nhưng phải ghi rõ mục đích và ngày phát sinh. Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal và nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp.","## Chứng từ yêu cầu
+Mọi chi phí **trên 200.000 VNĐ** phải có **hóa đơn hoặc biên lai** hợp lệ. Chi phí dưới 200.000 VNĐ có thể khai báo không cần hóa đơn nhưng phải ghi rõ mục đích và ngày phát sinh. ||| ## Quy định sử dụng
+Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp.",multi_context
+Những hậu quả nào có thể xảy ra nếu nhân viên vi phạm chính sách phân loại dữ liệu và thời gian nộp hồ sơ hoàn ứng chi phí là bao lâu?,"Vi phạm chính sách phân loại dữ liệu sẽ bị xử lý kỷ luật theo Quy chế kỷ luật công ty, mức cao nhất là sa thải và chịu trách nhiệm pháp lý. Nhân viên phải nộp hồ sơ hoàn ứng chi phí trong vòng 7 ngày kể từ ngày phát sinh chi phí, hồ sơ nộp trễ quá 30 ngày sẽ không được xử lý, trừ trường hợp đặc biệt có giải trình của trưởng phòng.","## Vi phạm
+Vi phạm chính sách phân loại dữ liệu sẽ bị xử lý kỷ luật theo Quy chế kỷ luật công ty, mức cao nhất là sa thải và chịu trách nhiệm pháp lý. ||| ## Thời hạn nộp hồ sơ
+Nhân viên phải nộp hồ sơ hoàn ứng chi phí trong vòng **7 ngày** kể từ ngày phát sinh chi phí. Hồ sơ nộp trễ quá 30 ngày sẽ không được xử lý, trừ trường hợp đặc biệt có giải trình của trưởng phòng.",multi_context
+Chính sách mật khẩu phiên bản cũ có những thông tin gì và quy định sử dụng phép năm là như thế nào?,"Chính sách mật khẩu phiên bản cũ (Phiên bản: 1.0, Ngày hiệu lực: 01/01/2022, Phòng ban: CNTT, Trạng thái: ĐÃ THAY THẾ bởi v2.0) quy định rằng phép năm phải được đăng ký trước ít nhất 2 ngày làm việc qua hệ thống HR Portal, nghỉ phép từ 5 ngày trở lên cần được trưởng phòng phê duyệt, phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp, và nhân viên có thể yêu cầu thanh toán bằng tiền cho số ngày phép còn lại.","# Chính sách mật khẩu (Phiên bản cũ)
+> Phiên bản: 1.0 | Ngày hiệu lực: 01/01/2022 | Phòng ban: CNTT | Trạng thái: ĐÃ THAY THẾ bởi v2.0 ||| ## Quy định sử dụng
+Phép năm phải được đăng ký trước ít nhất 2 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 5 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp. Nhân viên cũng có thể yêu cầu thanh toán bằng tiền cho số ngày phép còn lại.",multi_context
+Nhân viên có thể đăng ký gói bảo hiểm cho người thân như thế nào và có những quy định gì liên quan đến việc sử dụng VPN trong công ty?,"Nhân viên có thể đăng ký gói bảo hiểm cho người thân (vợ/chồng, con dưới 18 tuổi) với hạn mức 50.000.000 VNĐ/năm/người, trong đó công ty hỗ trợ 50% chi phí và nhân viên đóng 50% qua khấu trừ lương hàng tháng. Đồng thời, nhân viên cần tuân thủ các quy định sử dụng VPN như không chia sẻ thông tin đăng nhập, ngắt kết nối khi không sử dụng, không sử dụng VPN cá nhân trong mạng công ty và phiên VPN tự động ngắt sau 12 giờ.","## Gói gia đình
+Nhân viên có thể đăng ký thêm gói bảo hiểm cho người thân (vợ/chồng, con dưới 18 tuổi) với hạn mức **50.000.000 VNĐ/năm/người**. Chi phí gói gia đình: công ty hỗ trợ 50%, nhân viên đóng 50% qua khấu trừ lương hàng tháng. ||| ## Quy định sử dụng
+- Không chia sẻ thông tin đăng nhập VPN
+- Ngắt kết nối VPN khi không sử dụng
+- Không sử dụng VPN cá nhân (NordVPN, ExpressVPN) trong mạng công ty
+- Phiên VPN tự động ngắt sau 12 giờ, cần đăng nhập lại",multi_context
+Cấp bậc nào có mức lương cao nhất và quy định nào cần tuân thủ khi nghỉ phép từ 3 ngày trở lên?,Cấp bậc có mức lương cao nhất là Manager (M1-M2) với lương gross từ 45.000.000 - 70.000.000 VNĐ/tháng. Quy định cần tuân thủ khi nghỉ phép từ 3 ngày trở lên là phải được trưởng phòng phê duyệt.,"## Khung lương theo cấp bậc
+| Cấp bậc | Lương gross (VNĐ/tháng) |
+|----------|--------------------------|
+| Junior (P1-P2) | 12.000.000 - 20.000.000 |
+| Senior (P3-P4) | 20.000.000 - 35.000.000 |
+| Lead (P5) | 35.000.000 - 50.000.000 |
+| Manager (M1-M2) | 45.000.000 - 70.000.000 | ||| ## Quy định sử dụng
+Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế tiếp.",multi_context
+Nhân viên có thâm niên từ bao lâu thì được tài trợ chi phí đào tạo bên ngoài và họ sẽ nhận được bao nhiêu ngày phép nếu có thâm niên 10 năm?,"Nhân viên có thâm niên từ 1 năm trở lên được tài trợ chi phí đào tạo bên ngoài, và nếu có thâm niên 10 năm thì họ sẽ nhận được 14 ngày phép.","## Điều kiện được tài trợ
+Công ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban. ||| ## Thâm niên công tác
+Nhân viên có thâm niên từ **5 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 5 năm làm việc liên tục. Ví dụ: nhân viên 10 năm thâm niên được 14 ngày phép.",multi_context
+"Nhân viên có thể mua sắm thiết bị CNTT nào và có điều kiện gì để được duyệt đơn hàng, cũng như thông tin về lương tháng 13 mà họ sẽ nhận được?","Nhân viên có thể mua sắm thiết bị CNTT như laptop, server, và phần mềm, nhưng cần có xác nhận của phòng CNTT về cấu hình kỹ thuật trước khi đề xuất. Đối với đơn hàng khẩn cấp, yêu cầu 3 báo giá có thể bỏ qua nhưng phải có giải trình bằng văn bản. Ngoài ra, nhân viên chính thức sẽ được hưởng lương tháng 13, chi trả vào tháng 1 hàng năm, với mức lương bằng 1 tháng lương cơ bản, tính pro-rata cho nhân viên chưa đủ 12 tháng.","## Lưu ý đặc biệt
+Mua sắm thiết bị CNTT (laptop, server, phần mềm) cần có xác nhận của phòng CNTT về cấu hình kỹ thuật trước khi đề xuất. Đơn hàng khẩn cấp có thể bỏ qua yêu cầu 3 báo giá nhưng phải có giải trình bằng văn bản. ||| ## Lương tháng 13
+Nhân viên chính thức được hưởng **lương tháng 13**, chi trả vào tháng 1 hàng năm (trước Tết Nguyên đán). Mức lương tháng 13 bằng 1 tháng lương cơ bản, tính pro-rata cho nhân viên chưa đủ 12 tháng.",multi_context
+Nhân viên làm việc từ xa cần tuân thủ những yêu cầu kỹ thuật nào và nếu họ nghỉ ốm thì cần làm gì để đảm bảo quyền lợi của mình?,"Nhân viên làm việc từ xa cần kết nối VPN, đảm bảo đường truyền internet ổn định tối thiểu 20Mbps, sử dụng thiết bị công ty hoặc thiết bị cá nhân đã cài MDM, và tham gia đầy đủ các cuộc họp online theo lịch. Nếu nhân viên nghỉ ốm, họ phải nộp giấy xác nhận y tế trong vòng 3 ngày làm việc kể từ ngày quay lại làm việc, nếu không có giấy tờ y tế hợp lệ, ngày nghỉ sẽ bị trừ vào phép năm.","## Yêu cầu kỹ thuật
+- Kết nối **VPN** bắt buộc khi làm việc từ xa
+- Đảm bảo đường truyền internet ổn định (tối thiểu 20Mbps)
+- Sử dụng thiết bị công ty hoặc thiết bị cá nhân đã cài MDM
+- Tham gia đầy đủ các cuộc họp online theo lịch ||| ## Quy định chung
+Nhân viên nghỉ ốm phải nộp giấy xác nhận y tế (giấy khám bệnh hoặc giấy ra viện) trong vòng **3 ngày làm việc** kể từ ngày quay lại làm việc. Nếu không có giấy tờ y tế hợp lệ, ngày nghỉ sẽ bị trừ vào phép năm.",multi_context
+Mật khẩu cần thay đổi sau bao lâu và thông tin nào được phân loại là bí mật trong tài liệu HR?,"Mật khẩu phải được thay đổi mỗi 120 ngày và thông tin bí mật trong tài liệu HR bao gồm dữ liệu khách hàng, hợp đồng, và chiến lược kinh doanh.","## Chu kỳ thay đổi
+Mật khẩu phải được thay đổi **mỗi 120 ngày**. Hệ thống tự động nhắc nhở trước 14 ngày. Mật khẩu mới không được trùng với 5 mật khẩu gần nhất. Tài khoản bị khóa sau 5 lần nhập sai liên tiếp. ||| ## Bốn cấp độ phân loại
+| Cấp độ | Nhãn | Ví dụ |
+|--------|------|-------|
+| 1 | **Công khai** | Thông tin marketing, bài blog, tuyển dụng |
+| 2 | **Nội bộ** | Quy trình nội bộ, biên bản họp, danh bạ nhân viên |
+| 3 | **Bí mật** | Dữ liệu khách hàng, hợp đồng, chiến lược kinh doanh |
+| 4 | **Tối mật** | Mã nguồn core, bí mật thương mại, kế hoạch M&A |",multi_context

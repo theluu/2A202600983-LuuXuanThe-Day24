@@ -1,5 +1,73 @@
 # Lab 24 — Production Eval + Guardrail Stack
 
+> **Sinh viên:** Lưu Xuân Thế · **MSSV:** 2A202600983 · **Ngày:** 30/06/2026
+
+---
+
+## 📦 Bài nộp (Student Edition) — chạy thật với API
+
+Toàn bộ pipeline chạy **thật** (không heuristic): RAGAS library, LLM-as-Judge (`gpt-4o-mini`),
+Presidio, và safety models trên Groq. Deliverable nằm trong `phase-a/ … phase-d/`.
+
+### Cấu trúc bài nộp
+```
+phase-a/  testset_v1.csv · testset_review_notes.md · ragas_results.csv · ragas_summary.json
+          failure_analysis.md · eval_gate.py        (+ a1/a2 scripts)
+phase-b/  pairwise_results.csv · absolute_scores.csv · human_labels.csv
+          judge_bias_report.md · judge_bias_chart.png   (+ b1/b3 scripts)
+phase-c/  pii_test_results.csv · topic_results.csv · adversarial_test_results.csv
+          output_guard_results.csv · latency_benchmark.json · guard_stack_results.json
+          guards.py · c1..c5 scripts
+phase-d/  blueprint.md
+src/      common.py (real RAG pipeline) + Day-18 modules
+.github/workflows/eval-gate.yml   (threshold gate, exit 1; uploads ragas_results.csv)
+```
+
+### Cách chạy (Python 3.11 — ragas/presidio/spacy chưa có wheel cho 3.14)
+```bash
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python -m spacy download en_core_web_lg
+cp .env.example .env        # điền OPENAI_API_KEY, GROQ_API_KEY (+ HF_TOKEN optional)
+
+# Phase A
+python phase-a/a1_generate_testset.py     # -> testset_v1.csv
+python phase-a/a2_run_ragas.py            # -> ragas_results.csv + ragas_summary.json
+python phase-a/eval_gate.py               # CI threshold gate (exit 1 nếu dưới ngưỡng)
+# Phase B
+python phase-b/b1_b2_judge.py             # -> pairwise + absolute
+python phase-b/b3_b4_calibration.py       # -> Cohen κ + bias report + chart
+# Phase C
+python phase-c/c1_pii.py ; python phase-c/c2_topic.py
+python phase-c/c3_adversarial.py ; python phase-c/c4_output_guard.py
+python phase-c/c5_integration.py          # full stack, 100-request benchmark
+```
+
+### Kết quả đo (run 30/06/2026)
+
+| Phase | Kết quả |
+|---|---|
+| **A — RAGAS (real lib)** | faithfulness **0.734** · answer_relevancy 0.464 ⚠️ · context_precision 0.795 · context_recall 0.854 · avg 0.712. Yếu nhất: nhóm `multi_context` (0.508). |
+| **B — LLM Judge** | 30 cặp baseline-vs-reranker, swap-and-average. Cohen's **κ = 1.0** (vs 10 human labels). Position bias 10% · verbosity bias 66.7% · tie rate 93.3%. |
+| **C.1 PII** | detection **100%** (9/9), P95 **~12–32 ms** < 50 ms. |
+| **C.2 Topic** | accuracy **100%** (20/20). **Refuse rate** (off-topic bị từ chối) = 50% trên test 10 on/10 off; có fallback lịch sự. |
+| **C.3 Adversarial** | detection **90%** (18/20) ≥ 70%; **false-positive 0%** trên 10 legit. |
+| **C.4 Output guard** | unsafe detection **100%** (10/10) ≥ 80%; false-positive **0%** ≤ 20%. |
+| **C.5 Full stack** | 100 requests: allow 80 / block_injection 6 / block_offtopic 14. L1-PII P95 **11.9 ms** · e2e P95 **3.08 s** · **guard overhead +1.79 s** P95 so với RAG-only. |
+
+### Chi phí (Total cost)
+- **RAGAS + RAG generation (OpenAI, đo bằng cost-meter):** ≈ **$0.004** cho 50q (chưa gồm các call nội bộ của ragas judge; ước tính tổng OpenAI cho cả lab < **$0.05**).
+- **Groq** (Prompt-Guard-2 + gpt-oss-safeguard): **free tier** (30 RPM).
+- Dự phóng production 100k query/tháng: **≈ $55–85/tháng** (chi tiết `phase-d/blueprint.md` §5).
+
+### ⚠️ Ghi chú về Llama Guard 3
+Đề gợi ý **Llama Guard 3** cho output rail. Tại thời điểm làm bài, `llama-guard-3-8b` đã bị **Groq ngừng cung cấp**
+(decommissioned) và `meta-llama/Llama-Guard-3-8B` trên HF bị **gated/không có serverless**. Thay thế bằng
+**`openai/gpt-oss-safeguard-20b`** trên Groq — safety classifier chuyên dụng tương đương (UNSAFE/SAFE theo policy),
+đạt 100% unsafe detection / 0% false-positive. Injection rail dùng **`meta-llama/llama-prompt-guard-2-86m`** (Groq).
+
+---
+
 Chào mừng các bạn đến với **Day 24**! 🎉
 
 Hôm nay chúng ta sẽ xây dựng lớp **đánh giá (evaluation)** và **bảo vệ (guardrail)** hoàn chỉnh cho RAG pipeline mà các bạn đã xây dựng ở Day 18. Nếu Day 18 là "làm cho RAG chạy được", thì Day 24 là "làm cho RAG đáng tin cậy trong production".

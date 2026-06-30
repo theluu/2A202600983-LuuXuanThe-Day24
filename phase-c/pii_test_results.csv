@@ -1,0 +1,11 @@
+input,output,pii_found,latency_ms
+"CCCD của tôi là 012345678901, gọi tôi qua 0987654321.","CCCD của tôi là <VN_CCCD>, gọi tôi qua <VN_PHONE>.",VN_CCCD;VN_PHONE,9.96
+"My email is john.doe@company.com, please reply.","My email is <EMAIL_ADDRESS>, please reply.",EMAIL_ADDRESS,136.5
+Số điện thoại liên hệ: 0912345678.,Số điện <PERSON> hệ: <VN_PHONE>.,PERSON;VN_PHONE,9.35
+Mã số thuế công ty là 0312345678 theo hồ sơ.,Mã số <PERSON> sơ.,PERSON;VN_PHONE,11.39
+Contact Nguyen at nguyen.van.a@corp.vn or +84987654321.,Contact <PERSON> at <EMAIL_ADDRESS> or +84987654321.,EMAIL_ADDRESS;PERSON,8.59
+"Nhân viên Trần Thị B sống tại 123 Lê Lợi, Quận 1.","Nhân viên Trần Thị B sống tại 123 <PERSON>, Quận 1.",PERSON,12.4
+Please update my CMND 123456789 in the system.,Please update my CMND <VN_CCCD> in the system.,VN_CCCD,10.28
+Gửi lương về số 0356789012 nhé anh.,Gửi lương về số <VN_PHONE> <PERSON>.,PERSON;VN_PHONE,9.65
+,,,0.0
+Chính sách nghỉ phép năm là 15 ngày. Chính sách nghỉ phép năm là 15 ngày. Chính …,Chính sách nghỉ phép năm là 15 ngày. Chính sách nghỉ phép năm là 15 ngày. Chính …,VN_PHONE,654.81

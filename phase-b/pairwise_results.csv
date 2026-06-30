@@ -1,31 +1,31 @@
-question,winner_after_swap,run1_winner,run2_winner,position_consistent,score_a,score_b
-"Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",tie,tie,tie,True,0.693,0.738
-"Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",B,B,B,True,0.59,0.657
-"Phụ cấp ăn trưa hàng tháng là bao nhiêu?",tie,tie,tie,True,0.537,0.556
-"Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",A,A,A,True,0.69,0.415
-"Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",A,A,A,True,0.587,0.479
-"Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",tie,tie,tie,True,0.615,0.632
-"Nghỉ phép không lương 20 ngày cần ai phê duyệt?",B,B,B,True,0.647,0.717
-"Nhân viên được nghỉ bao nhiêu ngày khi cha hoặc mẹ mất?",B,B,B,True,0.625,0.722
-"Nam nhân viên được nghỉ bao nhiêu ngày khi vợ sinh con?",B,B,B,True,0.7,0.757
-"Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày một tuần?",B,B,B,True,0.685,0.77
-"VPN có bắt buộc không khi làm việc từ xa (WFH)?",B,B,B,True,0.738,0.8
-"Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",tie,tie,tie,True,0.637,0.639
-"Đánh giá hiệu suất diễn ra mấy lần một năm và vào tháng nào?",B,B,B,True,0.464,0.602
-"Nhân viên nghỉ ốm cần nộp giấy tờ gì và trong bao nhiêu ngày làm việc?",tie,tie,tie,True,0.625,0.638
-"Tạm ứng dưới 5 triệu cần ai phê duyệt? Từ 5 triệu trở lên thì sao?",B,B,B,True,0.609,0.701
-"Tài khoản VPN bị khóa tự động sau bao nhiêu ngày không hoạt động?",tie,tie,tie,True,0.815,0.792
-"Phụ cấp điện thoại dành cho những cấp bậc nào và mức bao nhiêu?",tie,tie,tie,True,0.53,0.555
-"Cơ cấu điểm đánh giá hiệu suất gồm những thành phần nào và tỷ lệ ra sao?",A,A,A,True,0.499,0.281
-"Thời gian thử việc tiêu chuẩn và tối đa (dành cho Manager trở lên) là bao nhiêu ngày?",tie,tie,tie,True,0.587,0.549
-"Phụ cấp đi lại tối đa mỗi tháng là bao nhiêu và điều kiện để được hưởng là gì?",A,A,A,True,0.537,0.486
-"Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",A,A,A,True,0.603,0.524
-"Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",B,B,B,True,0.535,0.656
-"Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",B,B,B,True,0.603,0.721
-"Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",A,A,A,True,0.653,0.384
-"Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",A,A,A,True,0.599,0.498
-"Nhân viên vừa kết hôn và cùng tuần đó có con kết hôn. Tổng số ngày nghỉ đặc biệt có lương là bao nhiêu?",A,A,A,True,0.609,0.534
-"Nhân viên có thâm niên 7 năm theo v2024 được nghỉ bao nhiêu ngày phép? Nếu bị trừ thêm 4 ngày ốm không có giấy y tế thì còn lại bao nhiêu?",B,B,B,True,0.593,0.763
-"Nhân viên cấp Lead nhận tổng phụ cấp hàng tháng (ăn trưa + điện thoại) là bao nhiêu?",A,A,A,True,0.569,0.507
-"Nhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày (quá hạn 15 ngày). Ai phê duyệt khoản này và phí phạt là bao nhiêu?",B,B,B,True,0.599,0.651
-"So sánh quyền lợi bảo hiểm giữa nhân viên thử việc và nhân viên chính thức.",tie,tie,tie,True,0.641,0.664
+question,winner_after_swap,run1_winner,run2_winner,position_consistent,len_baseline,len_reranker,reason
+Nhân viên cấp Manager được hưởng phụ cấp điện thoại bao nhiêu tiền mỗi tháng?,tie,tie,tie,True,74,74,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Chi phí nào cần có hóa đơn hoặc biên lai hợp lệ?,tie,tie,tie,True,61,74,"Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về yêu cầu hóa đơn hoặc biên lai cho chi phí trên 200.000 VNĐ, không có sự khác biệt đáng kể giữa chúng."
+Lương tháng 13 được chi trả vào tháng nào?,tie,tie,tie,True,49,49,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Nhân viên chính thức được phép làm việc từ xa tối đa bao nhiêu ngày mỗi tuần?,tie,tie,tie,True,69,69,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Chính sách nào đã được thay thế từ ngày 01/07/2024?,reranker,reranker,reranker,True,107,90,"Answer B chính xác hơn vì nó đề cập đến việc thay thế giữa các phiên bản của chính sách mật khẩu, trong khi Answer A lại nói về chính sách nghỉ phép năm, không liên quan đến câu hỏi."
+Mức phụ cấp ngày cho công tác trong nước là bao nhiêu?,tie,tie,tie,True,61,61,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Xếp loại nào có điểm từ 4.5 đến 5.0?,tie,tie,tie,True,46,46,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt giữa chúng."
+"Theo chính sách mentor/buddy, một người phải đáp ứng tiêu chí gì để được làm mentor?",tie,tie,tie,True,137,137,"Cả hai câu trả lời đều giống nhau về nội dung, độ chính xác và đầy đủ thông tin cần thiết để trả lời câu hỏi."
+Mức thưởng Tết được tính dựa trên bao nhiêu yếu tố chính?,tie,tie,tie,True,51,51,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt giữa chúng."
+Thời hạn thanh toán khoản tạm ứng là bao lâu?,tie,tie,tie,True,66,66,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Các bước trong quy trình đề xuất mua sắm là gì?,tie,tie,tie,True,260,264,"Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về các bước trong quy trình đề xuất mua sắm, không có sự khác biệt về nội dung."
+KPI cá nhân chiếm bao nhiêu phần trăm tổng điểm trong cơ cấu đánh giá?,tie,tie,tie,True,54,54,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt giữa chúng."
+Hạn mức bảo hiểm cho mỗi người trong gói gia đình là bao nhiêu?,tie,tie,tie,True,76,76,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Thời gian xử lý sự cố nghiêm trọng là bao lâu?,tie,tie,tie,True,44,44,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt về nội dung."
+Những vị trí nào không được áp dụng WFH?,tie,tie,tie,True,106,104,"Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về các vị trí không được áp dụng WFH, không có sự khác biệt đáng kể giữa chúng."
+Phiên bản của chính sách mật khẩu là bao nhiêu?,tie,tie,tie,True,41,41,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Có bao nhiêu giờ thì phiên VPN tự động ngắt?,tie,tie,tie,True,34,34,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Nhân viên cần làm gì khi khám ngoài danh sách bệnh viện/phòng khám liên kết?,tie,tie,tie,True,72,72,"Cả hai câu trả lời đều giống nhau và cung cấp thông tin chính xác, đầy đủ về yêu cầu của nhân viên khi khám ngoài danh sách bệnh viện/phòng khám liên kết."
+Phiên bản của chính sách mật khẩu là gì?,tie,tie,baseline,False,50,41,"Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về phiên bản của chính sách mật khẩu, không có sự khác biệt đáng kể."
+Nhân viên có thể tạm ứng tối đa bao nhiêu tiền cho mỗi lần đề xuất?,tie,tie,tie,True,71,71,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Nhân viên được hưởng chế độ nghỉ ốm tối đa bao nhiêu ngày trong một năm?,tie,tie,tie,True,55,59,"Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về chế độ nghỉ ốm tối đa của nhân viên, không có sự khác biệt về nội dung."
+Phụ cấp ngày là bao nhiêu VNĐ?,tie,tie,tie,True,33,33,"Cả hai câu trả lời đều chính xác và đầy đủ, bám sát câu hỏi."
+Mentor và Buddy có phải là cùng một người không?,tie,tie,tie,True,51,51,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt giữa chúng."
+Phép năm cần được đăng ký trước bao nhiêu ngày làm việc?,tie,tie,tie,True,56,56,"Cả hai câu trả lời đều chính xác và đầy đủ, không có sự khác biệt về nội dung."
+Mỗi nhân viên chính thức được hưởng bao nhiêu ngày phép năm?,tie,tie,baseline,False,66,53,Cả hai câu trả lời đều chính xác và đầy đủ thông tin về số ngày phép năm mà mỗi nhân viên chính thức được hưởng. Không có sự khác biệt về nội dung.
+"Nếu một nhân viên làm việc liên tục trong 10 tháng và không nghỉ phép, nghỉ ốm hay công tác ngoài, tổng phụ cấp ăn trưa mà nhân viên đó nhận được là bao nhiêu?",tie,tie,tie,True,99,102,"Cả hai câu trả lời đều chính xác và đầy đủ, cung cấp cùng một thông tin về tổng phụ cấp ăn trưa mà nhân viên nhận được."
+"Nếu một nhân viên có kết quả đánh giá hiệu suất cá nhân là 85 và công ty đạt chỉ tiêu doanh thu, hãy tính mức thưởng Tết của nhân viên đó nếu mức thưởng tối đa là 10 triệu đồng.",tie,reranker,baseline,False,532,617,"Answer B cung cấp công thức tính toán rõ ràng và chính xác hơn, bao gồm cả việc xác định kết quả kinh doanh là 100 khi công ty đạt chỉ tiêu. Answer A thiếu phần này và không tính đúng kết quả kinh doa"
+"Nếu một công ty có 100 tài liệu, trong đó 40 tài liệu là công khai, 30 tài liệu là nội bộ, 20 tài liệu là bí mật và 10 tài liệu là tối mật. Hãy tính tỷ lệ phần trăm của mỗi cấp độ tài liệu và cho biết cấp độ nào chiếm tỷ lệ cao nhất?",tie,tie,tie,True,287,252,Cả Answer A và Answer B đều cung cấp thông tin chính xác và đầy đủ về tỷ lệ phần trăm của từng cấp độ tài liệu cũng như xác định đúng cấp độ chiếm tỷ lệ cao nhất. Sự khác biệt chỉ nằm ở cách trình bày
+Tại sao việc có Mentor và Buddy là hai người khác nhau lại quan trọng trong quá trình hỗ trợ nhân viên mới?,tie,tie,tie,True,381,378,"Cả hai câu trả lời đều cung cấp thông tin chính xác, đầy đủ và bám sát câu hỏi mà không có sự khác biệt nào về nội dung."
+"Nếu một nhân viên có 15 ngày phép năm và đã sử dụng 8 ngày trong năm hiện tại, anh ta có thể chuyển bao nhiêu ngày phép sang năm sau?",reranker,reranker,reranker,True,40,56,"Answer B cung cấp thông tin chính xác về số ngày phép có thể chuyển sang năm sau, trong khi Answer A không đưa ra thông tin nào."

@@ -5,8 +5,14 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+.cache/
+.pytest_cache/
+# intermediate caches (raw judge/answer dumps)
+phase-b/_*.json
+phase-c/_*.json
 !answers_50q.json
 !reports/*.json
 !reports/*.md
 !demo/demo-video.mp4
 !demo/frames/*.png
+.DS_Store

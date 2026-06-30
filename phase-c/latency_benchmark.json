@@ -1,0 +1,65 @@
+{
+  "requests": 100,
+  "mode": "sequential + 30RPM throttle (Groq free tier)",
+  "per_layer_ms": {
+    "L1_pii": {
+      "p50": 7.8,
+      "p95": 11.9,
+      "p99": 29.0,
+      "n": 100
+    },
+    "L1_topic": {
+      "p50": 30.6,
+      "p95": 36.1,
+      "p99": 60.3,
+      "n": 100
+    },
+    "L1_inject": {
+      "p50": 280.4,
+      "p95": 304.0,
+      "p99": 1324.8,
+      "n": 100
+    },
+    "L1_total": {
+      "p50": 319.9,
+      "p95": 366.5,
+      "p99": 1364.4,
+      "n": 100
+    },
+    "L2_rag": {
+      "p50": 934.0,
+      "p95": 1650.4,
+      "p99": 4045.8,
+      "n": 80
+    },
+    "L3_output": {
+      "p50": 428.3,
+      "p95": 1424.2,
+      "p99": 2810.2,
+      "n": 80
+    }
+  },
+  "end_to_end_ms": {
+    "p50": 1646.4,
+    "p95": 3083.8,
+    "p99": 4614.6,
+    "n": 100
+  },
+  "rag_only_ms": {
+    "p50": 1139.9,
+    "p95": 2945.8,
+    "p99": 3379.8,
+    "n": 10
+  },
+  "overhead": {
+    "guard_overhead_p50_ms": 748.2,
+    "guard_overhead_p95_ms": 1790.7,
+    "L1_pii_meets_50ms_target": true,
+    "L3_meets_100ms_target": false,
+    "note": "Only the local PII layer meets P95<50ms. Topic/injection/output are remote model calls (OpenAI embeddings / Groq classifiers), so they are network-bound; production should use locally-hosted distilled guards or async parallel rails to hit the <50ms/<100ms budgets."
+  },
+  "targets": {
+    "L1_p95_ms": 50,
+    "L3_p95_ms": 100
+  }
+}

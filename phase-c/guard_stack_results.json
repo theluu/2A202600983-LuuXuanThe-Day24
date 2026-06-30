@@ -1,0 +1,71 @@
+{
+  "requests": 100,
+  "decisions": {
+    "allow": 80,
+    "block_offtopic": 14,
+    "block_injection": 6
+  },
+  "audit_records": 100,
+  "sample": [
+    {
+      "decision": "allow",
+      "topic_score": 0.664,
+      "inject_score": 0.0004,
+      "pii": [
+        "PERSON"
+      ]
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.61,
+      "inject_score": 0.0005,
+      "pii": [
+        "PERSON"
+      ]
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.611,
+      "inject_score": 0.0005,
+      "pii": [
+        "PERSON"
+      ]
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.781,
+      "inject_score": 0.0005,
+      "pii": [
+        "PERSON"
+      ]
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.546,
+      "inject_score": 0.0004,
+      "pii": []
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.72,
+      "inject_score": 0.0004,
+      "pii": [
+        "PERSON"
+      ]
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.635,
+      "inject_score": 0.0004,
+      "pii": []
+    },
+    {
+      "decision": "allow",
+      "topic_score": 0.534,
+      "inject_score": 0.0004,
+      "pii": [
+        "PERSON"
+      ]
+    }
+  ]
+}
